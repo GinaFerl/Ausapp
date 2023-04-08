@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/project/Ausapp/app/src/main/res/layout/activity_alphabet.xml" value="0.1361111111111111" />
+        <entry key="..\:/project/Ausapp/app/src/main/res/drawable/rectangle1.xml" value="0.1" />
+        <entry key="..\:/project/Ausapp/app/src/main/res/drawable/rectangle2.xml" value="0.136" />
+        <entry key="..\:/project/Ausapp/app/src/main/res/drawable/rectangle3.xml" value="0.136" />
+        <entry key="..\:/project/Ausapp/app/src/main/res/layout/activity_alphabet.xml" value="0.2111111111111111" />
         <entry key="..\:/project/Ausapp/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/project/Ausapp/app/src/main/res/layout/activity_splashscreen.xml" value="0.1171448087431694" />
         <entry key="..\:/project/Ausapp/app/src/main/res/layout/fragment_home.xml" value="0.13387978142076504" />
