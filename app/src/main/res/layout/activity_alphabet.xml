@@ -13,6 +13,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -25,8 +26,8 @@
                 android:layout_height="wrap_content"
                 android:text="Belajar Alfabet"
                 android:textColor="#076481"
-                android:textSize="30sp"
-                android:layout_marginTop="30dp"
+                android:textSize="22sp"
+                android:layout_marginTop="10dp"
                 app:fontFamily="sans-serif-medium"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -38,13 +39,13 @@
                 android:layout_height="80dp"
                 android:text="Aa"
                 android:textSize="40sp"
-                android:layout_marginStart="20dp"
                 android:padding="10dp"
                 android:gravity="center"
                 android:textColor="#E1990C"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/text_B"
                 app:layout_constraintTop_toBottomOf="@+id/text_alphabet"/>
 
             <TextView
@@ -52,7 +53,6 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:text="Bb"
-                android:layout_marginStart="17dp"
                 android:layout_marginTop="30dp"
                 android:textSize="40sp"
                 android:textColor="#076481"
@@ -60,6 +60,7 @@
                 android:gravity="center"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toEndOf="@+id/text_A"
+                app:layout_constraintEnd_toStartOf="@id/text_C"
                 app:layout_constraintTop_toBottomOf="@+id/text_alphabet"/>
 
             <TextView
@@ -67,7 +68,6 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:text="Cc"
-                android:layout_marginStart="17dp"
                 android:layout_marginTop="30dp"
                 android:textSize="40sp"
                 android:textColor="#E1990C"
@@ -75,13 +75,13 @@
                 android:gravity="center"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toEndOf="@+id/text_B"
+                app:layout_constraintEnd_toStartOf="@id/text_D"
                 app:layout_constraintTop_toBottomOf="@+id/text_alphabet"/>
 
             <TextView
                 android:id="@+id/text_D"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:layout_marginStart="17dp"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/rectangle1"
                 android:gravity="center"
@@ -89,9 +89,7 @@
                 android:text="Dd"
                 android:textColor="#076481"
                 android:textSize="40sp"
-                android:layout_marginEnd="20dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/text_C"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@+id/text_C"
                 app:layout_constraintTop_toBottomOf="@+id/text_alphabet" />
 
             <TextView
@@ -100,13 +98,14 @@
                 android:layout_height="80dp"
                 android:text="Ee"
                 android:textSize="40sp"
-                android:layout_marginStart="20dp"
                 android:padding="10dp"
                 android:gravity="center"
                 android:textColor="#076481"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/text_F"
+
                 app:layout_constraintTop_toBottomOf="@+id/text_A"/>
 
             <TextView
@@ -115,13 +114,13 @@
                 android:layout_height="80dp"
                 android:text="Ff"
                 android:textSize="40sp"
-                android:layout_marginStart="17dp"
                 android:padding="10dp"
                 android:gravity="center"
                 android:textColor="#E1990C"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toEndOf="@id/text_E"
+                app:layout_constraintEnd_toStartOf="@id/text_G"
                 app:layout_constraintTop_toBottomOf="@+id/text_B"/>
 
             <TextView
@@ -130,20 +129,19 @@
                 android:layout_height="80dp"
                 android:text="Gg"
                 android:textSize="40sp"
-                android:layout_marginStart="17dp"
                 android:padding="10dp"
                 android:gravity="center"
                 android:textColor="#076481"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toEndOf="@id/text_F"
+                app:layout_constraintEnd_toStartOf="@id/text_H"
                 app:layout_constraintTop_toBottomOf="@+id/text_C"/>
 
             <TextView
                 android:id="@+id/text_H"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:layout_marginStart="17dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 android:gravity="center"
@@ -151,7 +149,6 @@
                 android:text="Hh"
                 android:textColor="#E1990C"
                 android:textSize="40sp"
-                android:layout_marginEnd="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/text_G"
                 app:layout_constraintTop_toBottomOf="@+id/text_D" />
@@ -162,13 +159,13 @@
                 android:layout_height="80dp"
                 android:text="Ii"
                 android:textSize="40sp"
-                android:layout_marginStart="20dp"
                 android:padding="10dp"
                 android:gravity="center"
                 android:textColor="#E1990C"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/text_J"
                 app:layout_constraintTop_toBottomOf="@+id/text_E"/>
 
             <TextView
@@ -177,13 +174,13 @@
                 android:layout_height="80dp"
                 android:text="Jj"
                 android:textSize="40sp"
-                android:layout_marginStart="17dp"
                 android:padding="10dp"
                 android:gravity="center"
                 android:textColor="#076481"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toEndOf="@+id/text_I"
+                app:layout_constraintEnd_toStartOf="@id/text_K"
                 app:layout_constraintTop_toBottomOf="@+id/text_F"/>
 
             <TextView
@@ -192,20 +189,19 @@
                 android:layout_height="80dp"
                 android:text="Kk"
                 android:textSize="40sp"
-                android:layout_marginStart="17dp"
                 android:padding="10dp"
                 android:gravity="center"
                 android:textColor="#E1990C"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toEndOf="@+id/text_J"
+                app:layout_constraintEnd_toStartOf="@id/text_L"
                 app:layout_constraintTop_toBottomOf="@+id/text_G"/>
 
             <TextView
                 android:id="@+id/text_L"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:layout_marginStart="17dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 android:gravity="center"
@@ -213,7 +209,6 @@
                 android:text="Ll"
                 android:textColor="#076481"
                 android:textSize="40sp"
-                android:layout_marginEnd="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/text_K"
                 app:layout_constraintTop_toBottomOf="@+id/text_H" />
@@ -224,7 +219,6 @@
                 android:layout_height="80dp"
                 android:text="Mm"
                 android:textSize="40sp"
-                android:layout_marginStart="20dp"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:paddingStart="4dp"
@@ -234,6 +228,7 @@
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/text_N"
                 app:layout_constraintTop_toBottomOf="@+id/text_I"/>
 
             <TextView
@@ -242,13 +237,13 @@
                 android:layout_height="80dp"
                 android:text="Nn"
                 android:textSize="40sp"
-                android:layout_marginStart="17dp"
                 android:padding="10dp"
                 android:gravity="center"
                 android:textColor="#E1990C"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toEndOf="@+id/text_M"
+                app:layout_constraintEnd_toStartOf="@id/text_O"
                 app:layout_constraintTop_toBottomOf="@+id/text_J"/>
 
             <TextView
@@ -257,20 +252,19 @@
                 android:layout_height="80dp"
                 android:text="Oo"
                 android:textSize="40sp"
-                android:layout_marginStart="17dp"
                 android:padding="10dp"
                 android:gravity="center"
                 android:textColor="#076481"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toEndOf="@+id/text_N"
+                app:layout_constraintEnd_toStartOf="@id/text_P"
                 app:layout_constraintTop_toBottomOf="@+id/text_K"/>
 
             <TextView
                 android:id="@+id/text_P"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:layout_marginStart="17dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 android:gravity="center"
@@ -278,7 +272,6 @@
                 android:text="Pp"
                 android:textColor="#E1990C"
                 android:textSize="40sp"
-                android:layout_marginEnd="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/text_O"
                 app:layout_constraintTop_toBottomOf="@+id/text_L" />
@@ -289,13 +282,13 @@
                 android:layout_height="80dp"
                 android:text="Qq"
                 android:textSize="40sp"
-                android:layout_marginStart="20dp"
                 android:padding="10dp"
                 android:gravity="center"
                 android:textColor="#E1990C"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/text_R"
                 app:layout_constraintTop_toBottomOf="@+id/text_M"/>
 
             <TextView
@@ -304,13 +297,13 @@
                 android:layout_height="80dp"
                 android:text="Rr"
                 android:textSize="40sp"
-                android:layout_marginStart="17dp"
                 android:padding="10dp"
                 android:gravity="center"
                 android:textColor="#076481"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toEndOf="@+id/text_Q"
+                app:layout_constraintEnd_toStartOf="@id/text_S"
                 app:layout_constraintTop_toBottomOf="@+id/text_N"/>
 
             <TextView
@@ -319,20 +312,19 @@
                 android:layout_height="80dp"
                 android:text="Ss"
                 android:textSize="40sp"
-                android:layout_marginStart="17dp"
                 android:padding="10dp"
                 android:gravity="center"
                 android:textColor="#E1990C"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toEndOf="@+id/text_R"
+                app:layout_constraintEnd_toStartOf="@id/text_T"
                 app:layout_constraintTop_toBottomOf="@+id/text_O"/>
 
             <TextView
                 android:id="@+id/text_T"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:layout_marginStart="17dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 android:gravity="center"
@@ -340,7 +332,6 @@
                 android:text="Tt"
                 android:textColor="#076481"
                 android:textSize="40sp"
-                android:layout_marginEnd="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/text_S"
                 app:layout_constraintTop_toBottomOf="@+id/text_P" />
@@ -351,13 +342,13 @@
                 android:layout_height="80dp"
                 android:text="Uu"
                 android:textSize="40sp"
-                android:layout_marginStart="17dp"
                 android:padding="10dp"
                 android:gravity="center"
                 android:textColor="#076481"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/text_V"
                 app:layout_constraintTop_toBottomOf="@+id/text_Q"/>
 
             <TextView
@@ -366,13 +357,13 @@
                 android:layout_height="80dp"
                 android:text="Vv"
                 android:textSize="40sp"
-                android:layout_marginStart="17dp"
                 android:padding="10dp"
                 android:gravity="center"
                 android:textColor="#E1990C"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toEndOf="@+id/text_U"
+                app:layout_constraintEnd_toStartOf="@id/text_W"
                 app:layout_constraintTop_toBottomOf="@+id/text_R"/>
 
             <TextView
@@ -381,7 +372,6 @@
                 android:layout_height="80dp"
                 android:text="Ww"
                 android:textSize="40sp"
-                android:layout_marginStart="17dp"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:paddingStart="4dp"
@@ -391,13 +381,13 @@
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 app:layout_constraintStart_toEndOf="@+id/text_V"
+                app:layout_constraintEnd_toStartOf="@id/text_X"
                 app:layout_constraintTop_toBottomOf="@+id/text_S"/>
 
             <TextView
                 android:id="@+id/text_X"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:layout_marginStart="17dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle1"
                 android:gravity="center"
@@ -405,7 +395,6 @@
                 android:text="Xx"
                 android:textColor="#E1990C"
                 android:textSize="40sp"
-                android:layout_marginEnd="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/text_W"
                 app:layout_constraintTop_toBottomOf="@+id/text_T" />
@@ -414,31 +403,36 @@
                 android:id="@+id/text_Y"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:text="Yy"
-                android:textSize="40sp"
-                android:layout_marginStart="20dp"
-                android:padding="10dp"
-                android:gravity="center"
-                android:textColor="#E1990C"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="25dp"
                 android:background="@drawable/rectangle1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Yy"
+                android:textColor="#E1990C"
+                android:textSize="40sp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/text_U"/>
+                app:layout_constraintEnd_toStartOf="@id/text_Z"
+                app:layout_constraintTop_toBottomOf="@+id/text_U" />
 
             <TextView
                 android:id="@+id/text_Z"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:text="Zz"
-                android:textSize="40sp"
                 android:layout_marginStart="17dp"
-                android:padding="10dp"
-                android:gravity="center"
-                android:textColor="#076481"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="25dp"
                 android:background="@drawable/rectangle1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Zz"
+                android:textColor="#076481"
+                android:textSize="40sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/text_Y"
-                app:layout_constraintTop_toBottomOf="@+id/text_V"/>
+                app:layout_constraintTop_toBottomOf="@+id/text_V" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

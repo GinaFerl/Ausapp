@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HerbivoraActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_herbivora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="HEWAN HERBIVORA"
+                android:textColor="#290D0D"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imgCow"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/cow"
+                android:background="@drawable/rectangle1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/imgDeer"
+                app:layout_constraintTop_toBottomOf="@+id/text_herbivora" />
+
+            <ImageView
+                android:id="@+id/imgDeer"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="30dp"
+                android:padding="5dp"
+                android:background="@drawable/rectangle1"
+                android:src="@drawable/deer"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgCow"
+                app:layout_constraintTop_toBottomOf="@+id/text_herbivora" />
+
+            <ImageView
+                android:id="@+id/imgElephant"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="20dp"
+                android:padding="5dp"
+                android:background="@drawable/rectangle1"
+                android:src="@drawable/elephant"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/imgGiraffe"
+                app:layout_constraintTop_toBottomOf="@+id/imgCow" />
+
+            <ImageView
+                android:id="@+id/imgGiraffe"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="20dp"
+                android:padding="5dp"
+                android:background="@drawable/rectangle1"
+                android:src="@drawable/giraffe"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgElephant"
+                app:layout_constraintTop_toBottomOf="@+id/imgDeer" />
+
+            <ImageView
+                android:id="@+id/imgMonkey"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/monkey"
+                android:background="@drawable/rectangle1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgElephant" />
+
+            <ImageView
+                android:id="@+id/imgMousdeer"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle1"
+                android:src="@drawable/mouse_deer"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/imgMonkey"
+                app:layout_constraintTop_toBottomOf="@+id/imgGiraffe" />
+
+            <ImageView
+                android:id="@+id/imgGoat"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/goat"
+                android:background="@drawable/rectangle1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/imgHorse"
+                app:layout_constraintTop_toBottomOf="@+id/imgMonkey" />
+
+            <ImageView
+                android:id="@+id/imgHorse"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle1"
+                android:src="@drawable/horse"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgGoat"
+                app:layout_constraintTop_toBottomOf="@+id/imgMousdeer" />
+
+            <ImageView
+                android:id="@+id/imgRabbit"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/rabbit"
+                android:background="@drawable/rectangle1"
+                android:layout_marginBottom="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/imgZebras"
+                app:layout_constraintTop_toBottomOf="@+id/imgGoat" />
+
+            <ImageView
+                android:id="@+id/imgZebras"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/zebras"
+                android:background="@drawable/rectangle1"
+                android:layout_marginBottom="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/imgRabbit"
+                app:layout_constraintTop_toBottomOf="@+id/imgHorse" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

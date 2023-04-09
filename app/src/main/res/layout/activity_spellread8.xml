@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Spellread8Activity">>
+
+    <TextView
+        android:id="@+id/txtLthn8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latihan 8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgLthn8"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/realgoat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLthn8" />
+
+    <TextView
+        android:id="@+id/txtSpell8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="30dp"
+        android:text="K-A-M-B-I-N-G P-U-N-Y-A D-U-A T-A-N-D-U-K"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#076481"
+        android:background="@drawable/rectangle1"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/imgLthn8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/txtRead8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_margin="30dp"
+        android:text="Kambing Punya Dua Tanduk"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:background="@drawable/rectangle3"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/txtSpell8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

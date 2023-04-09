@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.ausapp" >
+    package="com.example.ausapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -14,7 +14,58 @@
         android:roundIcon="@drawable/logo_ausapp"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ausapp"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".Spellread10Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Spellread9Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Spellread8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Spellread7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Spellread6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Spellread5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Spellread4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Spellread3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Spellread2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Spellread1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".PuzzleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VegetableActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FruitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FlowerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OmnivoraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CarnivoraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HerbivoraActivity"
+            android:exported="false" />
         <activity
             android:name=".SpellingReadingActivity"
             android:exported="false" />
@@ -39,7 +90,7 @@
         <activity
             android:name=".Splashscreen"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

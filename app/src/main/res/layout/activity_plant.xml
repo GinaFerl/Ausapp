@@ -6,4 +6,66 @@
     android:layout_height="match_parent"
     tools:context=".PlantActivity">
 
+    <ImageView
+        android:id="@+id/imgPlant"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/plants"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtFlower"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle3"
+        android:text="BUNGA"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPlant" />
+
+    <TextView
+        android:id="@+id/txtFruit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle3"
+        android:text="BUAH"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFlower" />
+
+    <TextView
+        android:id="@+id/txtVegetable"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle3"
+        android:text="SAYUR"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFruit" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

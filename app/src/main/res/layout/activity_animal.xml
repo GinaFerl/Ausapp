@@ -6,4 +6,65 @@
     android:layout_height="match_parent"
     tools:context=".AnimalActivity">
 
+    <ImageView
+        android:id="@+id/imgAnimal"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/animal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtHerbivora"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle3"
+        android:text="HERBIVORA"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnimal" />
+
+    <TextView
+        android:id="@+id/txtCarnivora"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle3"
+        android:text="KARNIVORA"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHerbivora" />
+
+    <TextView
+        android:id="@+id/txtOmnivora"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle3"
+        android:text="OMNIVORA"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCarnivora" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

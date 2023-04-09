@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarnivoraActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_carnivora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="HEWAN KARNIVORA"
+                android:textColor="#290D0D"
+                android:textSize="25sp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imgBear"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/bear"
+                android:background="@drawable/rectangle1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/imgCat"
+                app:layout_constraintTop_toBottomOf="@+id/text_carnivora" />
+
+            <ImageView
+                android:id="@+id/imgCat"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rectangle1"
+                android:src="@drawable/cat"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgBear"
+                app:layout_constraintTop_toBottomOf="@+id/text_carnivora" />
+
+            <ImageView
+                android:id="@+id/imgCheetah"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="20dp"
+                android:padding="5dp"
+                android:background="@drawable/rectangle1"
+                android:src="@drawable/cheetah"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/imgDog"
+                app:layout_constraintTop_toBottomOf="@+id/imgBear" />
+
+            <ImageView
+                android:id="@+id/imgDog"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle1"
+                android:src="@drawable/dog"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgCheetah"
+                app:layout_constraintTop_toBottomOf="@+id/imgCat" />
+
+            <ImageView
+                android:id="@+id/imgEagle"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/eagle"
+                android:background="@drawable/rectangle1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/imgLion"
+                app:layout_constraintTop_toBottomOf="@+id/imgCheetah" />
+
+            <ImageView
+                android:id="@+id/imgLion"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle1"
+                android:src="@drawable/lion"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/imgEagle"
+                app:layout_constraintTop_toBottomOf="@+id/imgDog" />
+
+            <ImageView
+                android:id="@+id/imgOwl"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/owl"
+                android:background="@drawable/rectangle1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/imgSnake"
+                app:layout_constraintTop_toBottomOf="@+id/imgEagle" />
+
+            <ImageView
+                android:id="@+id/imgSnake"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle1"
+                android:src="@drawable/snake"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgOwl"
+                app:layout_constraintTop_toBottomOf="@+id/imgLion" />
+
+            <ImageView
+                android:id="@+id/imgTiger"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/tiger"
+                android:background="@drawable/rectangle1"
+                android:layout_marginBottom="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/imgWolf"
+                app:layout_constraintTop_toBottomOf="@+id/imgOwl" />
+
+            <ImageView
+                android:id="@+id/imgWolf"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wolf"
+                android:background="@drawable/rectangle1"
+                android:layout_marginBottom="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/imgTiger"
+                app:layout_constraintTop_toBottomOf="@+id/imgSnake" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
