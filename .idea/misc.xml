@@ -4,13 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/project/Ausapp/app/src/main/res/drawable/circle.xml" value="0.135" />
+        <entry key="..\:/project/Ausapp/app/src/main/res/drawable/ic_baseline_volume_up_24.xml" value="0.1" />
         <entry key="..\:/project/Ausapp/app/src/main/res/drawable/rectangle1.xml" value="0.1" />
         <entry key="..\:/project/Ausapp/app/src/main/res/drawable/rectangle2.xml" value="0.136" />
         <entry key="..\:/project/Ausapp/app/src/main/res/drawable/rectangle3.xml" value="0.136" />
         <entry key="..\:/project/Ausapp/app/src/main/res/drawable/rectangle4.xml" value="0.135" />
         <entry key="..\:/project/Ausapp/app/src/main/res/drawable/rectangle5.xml" value="0.2095" />
+        <entry key="..\:/project/Ausapp/app/src/main/res/drawable/rectangle6.xml" value="0.1" />
         <entry key="..\:/project/Ausapp/app/src/main/res/layout/activity_alphabet.xml" value="0.2111111111111111" />
         <entry key="..\:/project/Ausapp/app/src/main/res/layout/activity_animal.xml" value="0.15" />
+        <entry key="..\:/project/Ausapp/app/src/main/res/layout/activity_animal_voice.xml" value="0.16" />
         <entry key="..\:/project/Ausapp/app/src/main/res/layout/activity_carnivora.xml" value="0.1" />
         <entry key="..\:/project/Ausapp/app/src/main/res/layout/activity_flower.xml" value="0.1" />
         <entry key="..\:/project/Ausapp/app/src/main/res/layout/activity_fruit.xml" value="0.1" />
@@ -19,6 +22,7 @@
         <entry key="..\:/project/Ausapp/app/src/main/res/layout/activity_number.xml" value="0.18" />
         <entry key="..\:/project/Ausapp/app/src/main/res/layout/activity_omnivora.xml" value="0.18" />
         <entry key="..\:/project/Ausapp/app/src/main/res/layout/activity_plant.xml" value="0.1" />
+        <entry key="..\:/project/Ausapp/app/src/main/res/layout/activity_play_puzzle.xml" value="0.1361111111111111" />
         <entry key="..\:/project/Ausapp/app/src/main/res/layout/activity_puzzle.xml" value="0.21" />
         <entry key="..\:/project/Ausapp/app/src/main/res/layout/activity_spelling_reading.xml" value="0.22" />
         <entry key="..\:/project/Ausapp/app/src/main/res/layout/activity_spellread1.xml" value="0.22" />

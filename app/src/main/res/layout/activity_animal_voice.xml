@@ -6,4 +6,445 @@
     android:layout_height="match_parent"
     tools:context=".AnimalVoiceActivity">
 
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtAnimalvoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suara-Suara Hewan"
+                android:padding="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#290D0D"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/rectangle6"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imAv1"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="8dp"
+                    android:src="@drawable/realcow"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:text="Suara Sapi"
+                        android:textColor="#290D0D"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/v1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_baseline_volume_up_24" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/rectangle6"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imAv2"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="8dp"
+                    android:src="@drawable/realgoat" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="5dp"
+                        android:text="Suara Kambing"
+                        android:textColor="#290D0D"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/v2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_baseline_volume_up_24" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/rectangle6"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imAv3"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="8dp"
+                    android:src="@drawable/realdolphin" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="5dp"
+                        android:text="Suara Lumba-Lumba"
+                        android:textColor="#290D0D"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/v3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_baseline_volume_up_24" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/rectangle6"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imAv4"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="8dp"
+                    android:src="@drawable/realcat" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="5dp"
+                        android:text="Suara Kucing"
+                        android:textColor="#290D0D"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/v4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_baseline_volume_up_24" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/rectangle6"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imAv5"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="8dp"
+                    android:src="@drawable/realdog" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="5dp"
+                        android:text="Suara Anjing"
+                        android:textColor="#290D0D"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/v5"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_baseline_volume_up_24" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/rectangle6"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imAv6"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="8dp"
+                    android:src="@drawable/reallion" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="5dp"
+                        android:text="Suara Singa"
+                        android:textColor="#290D0D"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/v6"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_baseline_volume_up_24" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/rectangle6"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imAv7"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="8dp"
+                    android:src="@drawable/realwolf" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="5dp"
+                        android:text="Suara Serigala"
+                        android:textColor="#290D0D"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/v7"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_baseline_volume_up_24" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/rectangle6"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imAv8"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="8dp"
+                    android:src="@drawable/realmonkey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="5dp"
+                        android:text="Suara Monyet"
+                        android:textColor="#290D0D"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/v8"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_baseline_volume_up_24" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/rectangle6"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imAv9"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="8dp"
+                    android:src="@drawable/realelephant" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="5dp"
+                        android:text="Suara Gajah"
+                        android:textColor="#290D0D"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/v9"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_baseline_volume_up_24" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rectangle6"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imAv10"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="8dp"
+                    android:src="@drawable/realowl" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="5dp"
+                        android:text="Suara Burung Hantu"
+                        android:textColor="#290D0D"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/v10"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_baseline_volume_up_24" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
